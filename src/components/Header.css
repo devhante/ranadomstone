@@ -1,0 +1,26 @@
+.Header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: #F9F7F7;
+  background-color: #112D4E;
+  box-shadow: 0px 3px 6px;
+}
+
+.Header .logo {
+  height: 100%;
+}
+
+.Header .logo img {
+  height: 100%;
+  margin-right: 1rem;
+}
+
+.Header .title {
+  font-weight: bold;
+}

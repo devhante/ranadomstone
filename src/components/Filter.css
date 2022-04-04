@@ -1,0 +1,29 @@
+.Filter {
+  display: flex;
+  padding: 0.75rem 1rem;
+}
+
+.item {
+  margin-right: 1rem;
+  padding: 2px 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.firebrick {
+  color: white; 
+  background-color: firebrick;
+}
+
+.royalblue {
+  color: white;
+  background-color: royalblue;
+}
+
+.paleturquoise {
+  background-color: paleturquoise;
+}
+
+.mediumaquamarine {
+  background-color: mediumaquamarine;
+}
