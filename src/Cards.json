@@ -2660,6 +2660,20 @@
     "image": "SnowfallGuardian.png"
   },
   {
+    "name": "빙하 작용",
+    "cardSet": "alterac",
+    "class": "shaman",
+    "cost": 6,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "frost",
+    "rarity": "rare",
+    "keywords": ["discover"],
+    "image": "Glaciate.png"
+  },
+  {
     "name": "곰 남작 글라시어",
     "cardSet": "alterac",
     "class": "shaman",
