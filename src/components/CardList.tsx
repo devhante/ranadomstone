@@ -7,7 +7,7 @@ interface IProps {
 }
 
 export default function CardList(props: IProps) {
-  const cardElements = props.cards.map((item, index) => <img key={index} src={`/cards/${item.image}`} alt={item.name} />);
+  const cardElements = props.cards.map((item, index) => <img key={index} src={`/cards/${item.cardSet}/${item.image}`} alt={item.name} />);
 
   console.log(cardElements);
 
