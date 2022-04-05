@@ -2,6 +2,7 @@
   margin: 0 1rem 1rem
 }
 
-.CardList img {
+.CardList .random-card {
   width: 200px;
+  cursor: pointer;
 }

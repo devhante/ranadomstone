@@ -6,13 +6,14 @@ import { card } from '../types/card';
 
 interface IProps {
   cards: card[];
+  setSelected: (value: card | null) => void;
 }
 
 export default function Content(props: IProps) {
   return (
     <div className="Content">
       <Filter />
-      <CardList cards={props.cards} />
+      <CardList cards={props.cards} setSelected={props.setSelected} />
     </div>
   );
 }

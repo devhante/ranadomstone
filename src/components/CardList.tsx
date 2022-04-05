@@ -4,12 +4,25 @@ import { card } from '../types/card';
 
 interface IProps {
   cards: card[];
+  setSelected: (value: card | null) => void;
 }
 
 export default function CardList(props: IProps) {
-  const cardElements = props.cards.map((item, index) => <img key={index} src={`/cards/${item.cardSet}/${item.image}`} alt={item.name} />);
+  const randomCards = props.cards.filter((item) => {
+    return (
+      item.keywords.includes('discover') || item.keywords.includes('random')
+    );
+  });
 
-  console.log(cardElements);
+  const cardElements = randomCards.map((item, index) => (
+    <img
+      key={index}
+      className={`random-card ${item.name}`}
+      src={`/cards/${item.cardSet}/${item.image}`}
+      alt={item.name}
+      onClick={() => props.setSelected(item)}
+    />
+  ));
 
   return <div className="CardList">{cardElements}</div>;
 }
