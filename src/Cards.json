@@ -28,6 +28,20 @@
     "image": "WaywardSage.png"
   },
   {
+    "name": "수렵",
+    "cardSet": "sunkencity",
+    "class": "demonhunter",
+    "cost": 3,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "fel",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "Predation.png"
+  },
+  {
     "name": "여군주 스테노",
     "cardSet": "sunkencity",
     "class": "demonhunter",
@@ -84,6 +98,20 @@
     "image": "Glaiveshark.png"
   },
   {
+    "name": "전투골검",
+    "cardSet": "sunkencity",
+    "class": "demonhunter",
+    "cost": 5,
+    "attack": 5,
+    "health": 2,
+    "cardType": "weapon",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry"],
+    "image": "BoneGlaive.png"
+  },
+  {
     "name": "갈퀴흉터 지휘관",
     "cardSet": "sunkencity",
     "class": "demonhunter",
@@ -126,6 +154,20 @@
     "image": "AquaticForm.png"
   },
   {
+    "name": "꾸벅이는 해초관리인",
+    "cardSet": "sunkencity",
+    "class": "druid",
+    "cost": 1,
+    "attack": 4,
+    "health": 4,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["rush"],
+    "image": "DozingKelpkeeper.png"
+  },
+  {
     "name": "심해먹보",
     "cardSet": "sunkencity",
     "class": "druid",
@@ -154,6 +196,20 @@
     "image": "AzsharanGardens.png"
   },
   {
+    "name": "해초 공격",
+    "cardSet": "sunkencity",
+    "class": "druid",
+    "cost": 3,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "nature",
+    "rarity": "epic",
+    "keywords": [],
+    "image": "SeaweedStrike.png"
+  },
+  {
     "name": "바다 동물 친구들",
     "cardSet": "sunkencity",
     "class": "druid",
@@ -166,6 +222,20 @@
     "rarity": "common",
     "keywords": ["chooseone"],
     "image": "FlipperFriends.png"
+  },
+  {
+    "name": "초록엄지 정원사",
+    "cardSet": "sunkencity",
+    "class": "druid",
+    "cost": 6,
+    "attack": 5,
+    "health": 5,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["battlecry"],
+    "image": "GreenThumbGardener.png"
   },
   {
     "name": "기적같은 성장",
@@ -224,6 +294,20 @@
     "image": "BarbedNets.png"
   },
   {
+    "name": "성게 가시",
+    "cardSet": "sunkencity",
+    "class": "hunter",
+    "cost": 1,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "epic",
+    "keywords": [],
+    "image": "UrchinSpines.png"
+  },
+  {
     "name": "긴급 기동",
     "cardSet": "sunkencity",
     "class": "hunter",
@@ -266,6 +350,34 @@
     "image": "NagasPride.png"
   },
   {
+    "name": "소라고둥의 부름",
+    "cardSet": "sunkencity",
+    "class": "hunter",
+    "cost": 3,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": [],
+    "image": "ConchsCall.png"
+  },
+  {
+    "name": "작살총",
+    "cardSet": "sunkencity",
+    "class": "hunter",
+    "cost": 3,
+    "attack": 3,
+    "health": 2,
+    "cardType": "weapon",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "HarpoonGun.png"
+  },
+  {
     "name": "쌍궁 공포나가",
     "cardSet": "sunkencity",
     "class": "hunter",
@@ -292,6 +404,20 @@
     "rarity": "common",
     "keywords": ["rush", "deathrattle"],
     "image": "AzsharanSaber.png"
+  },
+  {
+    "name": "히드랄로돈",
+    "cardSet": "sunkencity",
+    "class": "hunter",
+    "cost": 7,
+    "attack": 5,
+    "health": 5,
+    "cardType": "minion",
+    "minionType": "beast",
+    "spellSchool": "none",
+    "rarity": "legendary",
+    "keywords": ["colossal", "battlecry"],
+    "image": "Hydralodon.png"
   },
   {
     "name": "아즈샤라의 선물",
@@ -378,6 +504,20 @@
     "image": "AzsharanSweeper.png"
   },
   {
+    "name": "해저 관문",
+    "cardSet": "sunkencity",
+    "class": "mage",
+    "cost": 3,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "SeafloorGateway.png"
+  },
+  {
     "name": "사령관 사이바라",
     "cardSet": "sunkencity",
     "class": "mage",
@@ -418,6 +558,20 @@
     "rarity": "legendary",
     "keywords": ["colossal"],
     "image": "GaiaTheTechtonic.png"
+  },
+  {
+    "name": "천상의 김밥",
+    "cardSet": "sunkencity",
+    "class": "paladin",
+    "cost": 1,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "holy",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "HolyMakiRoll.png"
   },
   {
     "name": "레이더 탐지기",
@@ -490,6 +644,20 @@
     "image": "AzsharanMooncatcher.png"
   },
   {
+    "name": "거품로봇",
+    "cardSet": "sunkencity",
+    "class": "paladin",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "cardType": "minion",
+    "minionType": "mech",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry"],
+    "image": "Bubblebot.png"
+  },
+  {
     "name": "거대괴수호",
     "cardSet": "sunkencity",
     "class": "paladin",
@@ -532,6 +700,20 @@
     "image": "TheGardensGrace.png"
   },
   {
+    "name": "발광",
+    "cardSet": "sunkencity",
+    "class": "priest",
+    "cost": 0,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "holy",
+    "rarity": "common",
+    "keywords": [],
+    "image": "Illuminate.png"
+  },
+  {
     "name": "사제 발리쉬",
     "cardSet": "sunkencity",
     "class": "priest",
@@ -558,6 +740,34 @@
     "rarity": "epic",
     "keywords": [],
     "image": "SerpentWig.png"
+  },
+  {
+    "name": "심해의 속삭임",
+    "cardSet": "sunkencity",
+    "class": "priest",
+    "cost": 1,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "shadow",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "WhispersOfTheDeep.png"
+  },
+  {
+    "name": "여왕 근위병",
+    "cardSet": "sunkencity",
+    "class": "priest",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry"],
+    "image": "Queensguard.png"
   },
   {
     "name": "상황 역전",
@@ -630,6 +840,34 @@
     "image": "Whirlpool.png"
   },
   {
+    "name": "낚시의 맛",
+    "cardSet": "sunkencity",
+    "class": "rogue",
+    "cost": 1,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["combo"],
+    "image": "GoneFishin.png"
+  },
+  {
+    "name": "생선검사",
+    "cardSet": "sunkencity",
+    "class": "rogue",
+    "cost": 1,
+    "attack": 3,
+    "health": 1,
+    "cardType": "minion",
+    "minionType": "pirate",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry"],
+    "image": "Filletfighter.png"
+  },
+  {
     "name": "커틀라스 급사",
     "cardSet": "sunkencity",
     "class": "rogue",
@@ -642,6 +880,34 @@
     "rarity": "common",
     "keywords": [],
     "image": "CutlassCourier.png"
+  },
+  {
+    "name": "황새치",
+    "cardSet": "sunkencity",
+    "class": "rogue",
+    "cost": 3,
+    "attack": 2,
+    "health": 3,
+    "cardType": "weapon",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["battlecry"],
+    "image": "Swordfish.png"
+  },
+  {
+    "name": "신속비늘 속임술사",
+    "cardSet": "sunkencity",
+    "class": "rogue",
+    "cost": 4,
+    "attack": 2,
+    "health": 2,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["battlecry"],
+    "image": "SwiftscaleTrickster.png"
   },
   {
     "name": "발묶인 침몰꾼",
@@ -670,6 +936,20 @@
     "rarity": "epic",
     "keywords": [],
     "image": "AzsharanVessel.png"
+  },
+  {
+    "name": "바다에 흘린 피",
+    "cardSet": "sunkencity",
+    "class": "rogue",
+    "cost": 6,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": [],
+    "image": "BloodInTheWater.png"
   },
   {
     "name": "크래바토아",
@@ -740,6 +1020,20 @@
     "rarity": "rare",
     "keywords": ["discover"],
     "image": "AzsharanScroll.png"
+  },
+  {
+    "name": "닻 토템",
+    "cardSet": "sunkencity",
+    "class": "shaman",
+    "cost": 2,
+    "attack": 0,
+    "health": 3,
+    "cardType": "minion",
+    "minionType": "totem",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": [],
+    "image": "AnchoredTotem.png"
   },
   {
     "name": "생체발광",
@@ -826,6 +1120,34 @@
     "image": "GluggTheGulper.png"
   },
   {
+    "name": "밑바닥",
+    "cardSet": "sunkencity",
+    "class": "warlock",
+    "cost": 1,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "RockBottom.png"
+  },
+  {
+    "name": "공허아가미",
+    "cardSet": "sunkencity",
+    "class": "warlock",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "cardType": "minion",
+    "minionType": "murloc",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["deathrattle"],
+    "image": "Voidgill.png"
+  },
+  {
     "name": "미끼 양동이",
     "cardSet": "sunkencity",
     "class": "warlock",
@@ -840,6 +1162,20 @@
     "image": "ChumBucket.png"
   },
   {
+    "name": "시라케스 이교도",
+    "cardSet": "sunkencity",
+    "class": "warlock",
+    "cost": 3,
+    "attack": 2,
+    "health": 3,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry"],
+    "image": "SirakessCultist.png"
+  },
+  {
     "name": "아즈샤라 수집가",
     "cardSet": "sunkencity",
     "class": "warlock",
@@ -852,6 +1188,20 @@
     "rarity": "common",
     "keywords": ["battlecry"],
     "image": "AzsharanScavenger.png"
+  },
+  {
+    "name": "물귀신",
+    "cardSet": "sunkencity",
+    "class": "warlock",
+    "cost": 4,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "shadow",
+    "rarity": "common",
+    "keywords": [],
+    "image": "DraggedBelow.png"
   },
   {
     "name": "피비린내 썩은지느러미",
@@ -910,6 +1260,34 @@
     "image": "Gigafin.png"
   },
   {
+    "name": "도시 수호",
+    "cardSet": "sunkencity",
+    "class": "warrior",
+    "cost": 2,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": [],
+    "image": "GuardTheCity.png"
+  },
+  {
+    "name": "불꽃벼림",
+    "cardSet": "sunkencity",
+    "class": "warrior",
+    "cost": 2,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "fire",
+    "rarity": "common",
+    "keywords": [],
+    "image": "ForgedInFlame.png"
+  },
+  {
     "name": "진아즈샤리의 불바다",
     "cardSet": "sunkencity",
     "class": "warrior",
@@ -922,6 +1300,34 @@
     "rarity": "epic",
     "keywords": ["random"],
     "image": "TheFiresOfZinAzshari.png"
+  },
+  {
+    "name": "흑요석공",
+    "cardSet": "sunkencity",
+    "class": "warrior",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "cardType": "minion",
+    "minionType": "pirate",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["battlecry"],
+    "image": "Obsidiansmith.png"
+  },
+  {
+    "name": "깊은 바다 속 존재",
+    "cardSet": "sunkencity",
+    "class": "warrior",
+    "cost": 3,
+    "attack": 0,
+    "health": 0,
+    "cardType": "spell",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "FromTheDepths.png"
   },
   {
     "name": "아즈샤라 삼지창",
@@ -1008,6 +1414,20 @@
     "image": "PelicanDiver.png"
   },
   {
+    "name": "딸깍가재",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "cardType": "minion",
+    "minionType": "mech",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["divineshield", "battlecry"],
+    "image": "ClickClocker.png"
+  },
+  {
     "name": "우두머리 피라냐",
     "cardSet": "sunkencity",
     "class": "neutral",
@@ -1020,6 +1440,20 @@
     "rarity": "common",
     "keywords": ["rush"],
     "image": "PiranhaSwarmer.png"
+  },
+  {
+    "name": "투구 소라게",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 1,
+    "attack": 4,
+    "health": 3,
+    "cardType": "minion",
+    "minionType": "beast",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "HelmetHermit.png"
   },
   {
     "name": "해저 안내원 핀리 경",
@@ -1036,6 +1470,62 @@
     "image": "SirFinleySeaGuide.png"
   },
   {
+    "name": "흉포한 갈퀴창날",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": [],
+    "image": "ViciousSlitherspear.png"
+  },
+  {
+    "name": "경비형 전투로봇",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 2,
+    "attack": 1,
+    "health": 3,
+    "cardType": "minion",
+    "minionType": "mech",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": [],
+    "image": "SecurityAutomaton.png"
+  },
+  {
+    "name": "기뢰",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 2,
+    "attack": 0,
+    "health": 2,
+    "cardType": "minion",
+    "minionType": "mech",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["deathrattle"],
+    "image": "NavalMine.png"
+  },
+  {
+    "name": "무지개 반짝비늘",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["spelldamage"],
+    "image": "RainbowGlowscale.png"
+  },
+  {
     "name": "심해의 융합체",
     "cardSet": "sunkencity",
     "class": "neutral",
@@ -1048,6 +1538,20 @@
     "rarity": "epic",
     "keywords": ["battlecry", "discover"],
     "image": "AmalgamOfTheDeep.png"
+  },
+  {
+    "name": "암흑바다 서기",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry"],
+    "image": "MurkwaterScribe.png"
   },
   {
     "name": "투스카르르 어부",
@@ -1064,6 +1568,48 @@
     "image": "TuskarrrrTrawler.png"
   },
   {
+    "name": "바다탐험 운전수",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "cardType": "minion",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry"],
+    "image": "SeascoutOperator.png"
+  },
+  {
+    "name": "보물 경비병",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 3,
+    "attack": 1,
+    "health": 5,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["taunt", "deathrattle"],
+    "image": "TreasureGuard.png"
+  },
+  {
+    "name": "복어주먹",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "cardType": "minion",
+    "minionType": "pirate",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": [],
+    "image": "Pufferfist.png"
+  },
+  {
     "name": "분쇄집게 집행자",
     "cardSet": "sunkencity",
     "class": "neutral",
@@ -1076,6 +1622,34 @@
     "rarity": "rare",
     "keywords": ["battlecry"],
     "image": "CrushclawEnforcer.png"
+  },
+  {
+    "name": "쌍지느러미 쌍둥이",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 3,
+    "attack": 2,
+    "health": 1,
+    "cardType": "minion",
+    "minionType": "murloc",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["rush", "battlecry"],
+    "image": "TwinfinFinTwin.png"
+  },
+  {
+    "name": "암초지기",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 3,
+    "attack": 3,
+    "health": 2,
+    "cardType": "minion",
+    "minionType": "elemental",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry", "deathrattle"],
+    "image": "Reefwalker.png"
   },
   {
     "name": "진흙비늘 잠수부",
@@ -1148,6 +1722,20 @@
     "image": "AmbassadorFaelin.png"
   },
   {
+    "name": "이기적인 조개",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 4,
+    "attack": 7,
+    "health": 7,
+    "cardType": "minion",
+    "minionType": "beast",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["deathrattle"],
+    "image": "SelfishShellfish.png"
+  },
+  {
     "name": "학교 선생님",
     "cardSet": "sunkencity",
     "class": "neutral",
@@ -1190,6 +1778,34 @@
     "image": "GangplankDiver.png"
   },
   {
+    "name": "골록 약탈자",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 5,
+    "attack": 4,
+    "health": 3,
+    "cardType": "minion",
+    "minionType": "murloc",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["battlecry"],
+    "image": "GorlocRavager.png"
+  },
+  {
+    "name": "아즈샤라 파수기",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 5,
+    "attack": 5,
+    "health": 6,
+    "cardType": "minion",
+    "minionType": "none",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["taunt", "deathrattle"],
+    "image": "AzsharanSentinel.png"
+  },
+  {
     "name": "여왕 아즈샤라",
     "cardSet": "sunkencity",
     "class": "neutral",
@@ -1216,6 +1832,34 @@
     "rarity": "legendary",
     "keywords": ["battlecry"],
     "image": "IniStormcoil.png"
+  },
+  {
+    "name": "모선",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 6,
+    "attack": 5,
+    "health": 4,
+    "cardType": "minion",
+    "minionType": "mech",
+    "spellSchool": "none",
+    "rarity": "rare",
+    "keywords": ["rush", "deathrattle"],
+    "image": "Mothership.png"
+  },
+  {
+    "name": "야만스러운 마술사",
+    "cardSet": "sunkencity",
+    "class": "neutral",
+    "cost": 6,
+    "attack": 3,
+    "health": 7,
+    "cardType": "minion",
+    "minionType": "naga",
+    "spellSchool": "none",
+    "rarity": "common",
+    "keywords": ["taunt", "battlecry"],
+    "image": "BarbaricSorceress.png"
   },
   {
     "name": "미끄러운 죽음비늘",

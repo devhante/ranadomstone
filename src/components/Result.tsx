@@ -1,5 +1,5 @@
 import './Result.css';
-import React, { useState } from 'react';
+import React from 'react';
 import { card } from '../types/card';
 
 interface IProps {

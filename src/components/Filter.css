@@ -27,3 +27,17 @@
 .mediumaquamarine {
   background-color: mediumaquamarine;
 }
+
+.Filter .space {
+  flex-grow: 1;
+}
+
+.Filter .dropdown {
+  display: flex;
+  margin-left: 1rem;
+  padding: 2px 1rem;
+}
+
+.Filter .dropdown .label {
+  margin-right: 0.5rem;
+}

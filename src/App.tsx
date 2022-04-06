@@ -7,10 +7,10 @@ import { card } from './types/card';
 
 export default function App() {
   const cardData = require('./Cards.json');
-  const [cards, setCards] = useState<card[]>(
+  const [cards] = useState<card[]>(
     JSON.parse(JSON.stringify(cardData)) as card[]
   );
-  const [filter, setFilter] = useState<string>('None');
+  // const [filter, setFilter] = useState<string>('None');
   const [selected, setSelected] = useState<card | null>(null);
 
   const hide = () => {
