@@ -11449,7 +11449,7 @@
     "spellSchool": "none",
     "rarity": "common",
     "keywords": ["stealth"],
-    "image": "AbusiveSergeant.png"
+    "image": "WorgenInfiltrator.png"
   },
   {
     "name": "멀록 파도술사",
@@ -12283,7 +12283,7 @@
     "class": "neutral",
     "cost": 5,
     "attack": 4,
-    "health": 4,
+    "health": 5,
     "cardType": "minion",
     "minionType": "dragon",
     "spellSchool": "none",
