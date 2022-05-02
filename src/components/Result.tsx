@@ -1,9 +1,11 @@
 import './Result.css';
 import React from 'react';
 import { card } from '../types/card';
+import { filter } from '../types/filter';
 
 interface IProps {
   cards: card[];
+  filter: filter;
   selected: card | null;
   hide: () => void;
 }
@@ -45,7 +47,17 @@ export default function Result(props: IProps) {
 
   let result = <></>;
 
-  if (props.selected?.name === '주문 나가') {
+  if (props.selected?.name === '이단자 헤드라') {
+    const cards = props.cards.filter((item) => {
+      return (
+        item.cardType === 'minion' &&
+        item.cost === props.filter.cost &&
+        !item.keywords.includes('colossal')
+      );
+    });
+    const indexes = pick(cards.length, 1);
+    result = makeElement(cards, indexes);
+  } else if (props.selected?.name === '주문 나가') {
     const cards = props.cards.filter((item) => {
       return (
         item.class === 'mage' &&
@@ -97,11 +109,7 @@ export default function Result(props: IProps) {
     console.log(result);
   } else if (props.selected?.name === '진아즈샤리의 불바다') {
     const cards = props.cards.filter((item) => {
-      return (
-        item.cost >= 5 &&
-        item.cardType === 'minion' &&
-        !item.keywords.includes('colossal')
-      );
+      return item.cost >= 5 && item.cardType === 'minion';
     });
     const indexes = pick(cards.length, 13);
     result = makeElement(cards, indexes);
@@ -110,6 +118,17 @@ export default function Result(props: IProps) {
       return item.keywords.includes('colossal');
     });
     const indexes = pick(cards.length, 3);
+    result = makeElement(cards, indexes);
+  } else if (props.selected?.name === '모선') {
+    const cards = props.cards.filter((item) => {
+      return (
+        item.cost <= 3 &&
+        item.cardType === 'minion' &&
+        item.minionType === 'mech' &&
+        !item.keywords.includes('colossal')
+      );
+    });
+    const indexes = pick(cards.length, 2);
     result = makeElement(cards, indexes);
   }
 

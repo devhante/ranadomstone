@@ -1816,7 +1816,7 @@
     "minionType": "naga",
     "spellSchool": "none",
     "rarity": "legendary",
-    "keywords": ["battlecry"],
+    "keywords": ["battlecry", "random"],
     "image": "QueenAzshara.png"
   },
   {
@@ -1844,7 +1844,7 @@
     "minionType": "mech",
     "spellSchool": "none",
     "rarity": "rare",
-    "keywords": ["rush", "deathrattle"],
+    "keywords": ["rush", "deathrattle", "random"],
     "image": "Mothership.png"
   },
   {
@@ -12387,7 +12387,7 @@
     "spellSchool": "none",
     "rarity": "legendary",
     "keywords": ["startofgame"],
-    "image": "Nozdormu the Eternal.png"
+    "image": "NozdormuTheEternal.png"
   },
   {
     "name": "폭풍감시자",

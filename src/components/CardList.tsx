@@ -1,6 +1,7 @@
 import './CardList.css';
 import React from 'react';
 import { card } from '../types/card';
+import { filter } from '../types/filter';
 
 interface IProps {
   cards: card[];
